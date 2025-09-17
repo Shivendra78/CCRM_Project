@@ -1,5 +1,5 @@
 # CCRM_Project
-Colleage vityarthi project
+Collage vityarthi project
 # Campus Course Records Manager (CCRM)
 
 ## Project Overview
@@ -12,22 +12,22 @@ calculate GPA, and handle CSV import/export with backup support.
 
 ## Features
 
-- **Student Management:Add, list, update, and deactivate students.
-- **Course Management: Add, list, update, and deactivate courses.
-- **Enrollment & Grading: Enroll/unenroll students, record grades, compute GPA.
-- **File Operations:Import/export students, courses, and enrollments using CSV files.
-- **Backup & Utilities:Backup data files and recursive folder size and file listing utilities.
-- **Robust CLI: Command-line interface with input validation, confirmation prompts, and user-friendly menus.
-- **Java Concepts: Use of enums, exceptions, assertions, design patterns (Singleton, Builder), and Java streams.
+- Student Management:Add, list, update, and deactivate students.
+- Course Management: Add, list, update, and deactivate courses.
+- Enrollment & Grading: Enroll/unenroll students, record grades, compute GPA.
+- File Operations:Import/export students, courses, and enrollments using CSV files.
+- Backup & Utilities:Backup data files and recursive folder size and file listing utilities.
+- Robust CLI: Command-line interface with input validation, confirmation prompts, and user-friendly menus.
+- Java Concepts: Use of enums, exceptions, assertions, design patterns (Singleton, Builder), and Java streams.
 
 ---
 
 ## Installation & Setup
 
-- **Java Version:** Requires Java JDK 8 or above.
-- **Build:Compile all `.java` files using your IDE or command line.
-- **Run: Run the program via command line.
-- **Assertions: To enable assertions during runtime, use the `-ea` JVM option (e.g., `java -ea edu.ccrm.cli.CCRMApp`).
+- Java Version:** Requires Java JDK 8 or above.
+- Build:Compile all `.java` files using your IDE or command line.
+- Run: Run the program via command line.
+- Assertions: To enable assertions during runtime, use the `-ea` JVM option (e.g., `java -ea edu.ccrm.cli.CCRMApp`).
 
 ---
 
@@ -56,11 +56,11 @@ calculate GPA, and handle CSV import/export with backup support.
 
 ## Project Structure
 
-- **edu.ccrm.domain:Entity classes (Student, Course, Enrollment, Grade).
-- **edu.ccrm.service: Business logic and service classes for managing entities.
-- **edu.ccrm.exceptions:Custom exceptions like DuplicateEnrollmentException.
-- **edu.ccrm.cli: Command-line interface and user interaction.
-- **edu.ccrm.util: Utility classes for file handling and backups.
+- edu.ccrm.domain:Entity classes (Student, Course, Enrollment, Grade).
+- edu.ccrm.service: Business logic and service classes for managing entities.
+- edu.ccrm.exceptions:Custom exceptions like DuplicateEnrollmentException.
+- edu.ccrm.cli: Command-line interface and user interaction.
+- edu.ccrm.util: Utility classes for file handling and backups.
 
 ---
 
@@ -77,17 +77,17 @@ calculate GPA, and handle CSV import/export with backup support.
 
 ## Java ME vs SE vs EE
 
-- **Java ME:Micro Edition for mobile & embedded systems.
-- **Java SE:Standard Edition for desktop and server applications (used here).
-- **Java EE:Enterprise Edition for large-scale distributed applications.
+- Java ME:Micro Edition for mobile & embedded systems.
+- Java SE:Standard Edition for desktop and server applications (used here).
+- Java EE:Enterprise Edition for large-scale distributed applications.
 
 ---
 
 ## JDK, JRE, JVM Explained
 
-- **JVM:Java Virtual Machine executes compiled Java bytecode.
-- **JRE:Java Runtime Environment contains JVM and libraries to run Java apps.
-- **JDK:Java Development Kit includes JRE plus tools/compiler for development.
+- JVM:Java Virtual Machine executes compiled Java bytecode.
+- JRE:Java Runtime Environment contains JVM and libraries to run Java apps.
+- JDK:Java Development Kit includes JRE plus tools/compiler for development.
 
 ---
 
